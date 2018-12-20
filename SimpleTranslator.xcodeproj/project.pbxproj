@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		4BFA01E221C93BDE0070FE15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA01E121C93BDE0070FE15 /* AppDelegate.swift */; };
-		4BFA01E421C93BDE0070FE15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA01E321C93BDE0070FE15 /* ViewController.swift */; };
+		4BFA01E421C93BDE0070FE15 /* TranslateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA01E321C93BDE0070FE15 /* TranslateViewController.swift */; };
 		4BFA01E721C93BDE0070FE15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BFA01E521C93BDE0070FE15 /* Main.storyboard */; };
 		4BFA01EA21C93BDE0070FE15 /* SimpleTranslator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA01E821C93BDE0070FE15 /* SimpleTranslator.xcdatamodeld */; };
 		4BFA01EC21C93BDF0070FE15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BFA01EB21C93BDF0070FE15 /* Assets.xcassets */; };
 		4BFA01EF21C93BDF0070FE15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BFA01ED21C93BDF0070FE15 /* LaunchScreen.storyboard */; };
 		4BFA01FA21C93BDF0070FE15 /* SimpleTranslatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA01F921C93BDF0070FE15 /* SimpleTranslatorTests.swift */; };
 		4BFA020521C93BDF0070FE15 /* SimpleTranslatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA020421C93BDF0070FE15 /* SimpleTranslatorUITests.swift */; };
+		4BFA021421C95B0B0070FE15 /* ReverseLanguageViewWithButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA021321C95B0B0070FE15 /* ReverseLanguageViewWithButtons.swift */; };
+		4BFA021621CA46030070FE15 /* change-01-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BFA021521CA46030070FE15 /* change-01-512.png */; };
+		4BFA021821CA5A150070FE15 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA021721CA5A150070FE15 /* Language.swift */; };
+		4BFA022621CB876F0070FE15 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA022521CB876F0070FE15 /* CoreDataManager.swift */; };
+		4BFA022821CB8A2E0070FE15 /* CoreDataEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA022721CB8A2E0070FE15 /* CoreDataEngine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +42,7 @@
 /* Begin PBXFileReference section */
 		4BFA01DE21C93BDE0070FE15 /* SimpleTranslator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTranslator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BFA01E121C93BDE0070FE15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4BFA01E321C93BDE0070FE15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4BFA01E321C93BDE0070FE15 /* TranslateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateViewController.swift; sourceTree = "<group>"; };
 		4BFA01E621C93BDE0070FE15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4BFA01E921C93BDE0070FE15 /* SimpleTranslator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleTranslator.xcdatamodel; sourceTree = "<group>"; };
 		4BFA01EB21C93BDF0070FE15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +54,11 @@
 		4BFA020021C93BDF0070FE15 /* SimpleTranslatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleTranslatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BFA020421C93BDF0070FE15 /* SimpleTranslatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTranslatorUITests.swift; sourceTree = "<group>"; };
 		4BFA020621C93BDF0070FE15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BFA021321C95B0B0070FE15 /* ReverseLanguageViewWithButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLanguageViewWithButtons.swift; sourceTree = "<group>"; };
+		4BFA021521CA46030070FE15 /* change-01-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "change-01-512.png"; sourceTree = "<group>"; };
+		4BFA021721CA5A150070FE15 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		4BFA022521CB876F0070FE15 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		4BFA022721CB8A2E0070FE15 /* CoreDataEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataEngine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +110,10 @@
 			isa = PBXGroup;
 			children = (
 				4BFA01E121C93BDE0070FE15 /* AppDelegate.swift */,
-				4BFA01E321C93BDE0070FE15 /* ViewController.swift */,
+				4BFA022521CB876F0070FE15 /* CoreDataManager.swift */,
+				4BFA022721CB8A2E0070FE15 /* CoreDataEngine.swift */,
+				4BFA021921CA5FDF0070FE15 /* translate */,
+				4BFA021221C93F2C0070FE15 /* sourses */,
 				4BFA01E521C93BDE0070FE15 /* Main.storyboard */,
 				4BFA01EB21C93BDF0070FE15 /* Assets.xcassets */,
 				4BFA01ED21C93BDF0070FE15 /* LaunchScreen.storyboard */,
@@ -126,6 +139,24 @@
 				4BFA020621C93BDF0070FE15 /* Info.plist */,
 			);
 			path = SimpleTranslatorUITests;
+			sourceTree = "<group>";
+		};
+		4BFA021221C93F2C0070FE15 /* sourses */ = {
+			isa = PBXGroup;
+			children = (
+				4BFA021721CA5A150070FE15 /* Language.swift */,
+				4BFA021521CA46030070FE15 /* change-01-512.png */,
+			);
+			path = sourses;
+			sourceTree = "<group>";
+		};
+		4BFA021921CA5FDF0070FE15 /* translate */ = {
+			isa = PBXGroup;
+			children = (
+				4BFA01E321C93BDE0070FE15 /* TranslateViewController.swift */,
+				4BFA021321C95B0B0070FE15 /* ReverseLanguageViewWithButtons.swift */,
+			);
+			path = translate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BFA01EF21C93BDF0070FE15 /* LaunchScreen.storyboard in Resources */,
+				4BFA021621CA46030070FE15 /* change-01-512.png in Resources */,
 				4BFA01EC21C93BDF0070FE15 /* Assets.xcassets in Resources */,
 				4BFA01E721C93BDE0070FE15 /* Main.storyboard in Resources */,
 			);
@@ -259,7 +291,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BFA01E421C93BDE0070FE15 /* ViewController.swift in Sources */,
+				4BFA01E421C93BDE0070FE15 /* TranslateViewController.swift in Sources */,
+				4BFA022821CB8A2E0070FE15 /* CoreDataEngine.swift in Sources */,
+				4BFA022621CB876F0070FE15 /* CoreDataManager.swift in Sources */,
+				4BFA021821CA5A150070FE15 /* Language.swift in Sources */,
+				4BFA021421C95B0B0070FE15 /* ReverseLanguageViewWithButtons.swift in Sources */,
 				4BFA01E221C93BDE0070FE15 /* AppDelegate.swift in Sources */,
 				4BFA01EA21C93BDE0070FE15 /* SimpleTranslator.xcdatamodeld in Sources */,
 			);

@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14315.18" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Languages" representedClassName="Languages" syncable="YES" codeGenerationType="class">
+        <attribute name="languageCode" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="languageString" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="languageDictionary" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="SearchedWord" inverseName="curentLanguage" inverseEntity="SearchedWord" syncable="YES"/>
+    </entity>
+    <entity name="SearchedWord" representedClassName="SearchedWord" syncable="YES" codeGenerationType="class">
+        <attribute name="language" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="curentLanguage" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Languages" inverseName="languageDictionary" inverseEntity="Languages" syncable="YES"/>
+        <relationship name="savedTranslations" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SearchedWord" inverseName="savedTranslations" inverseEntity="SearchedWord" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Languages" positionX="-338.10546875" positionY="-33.16796875" width="128" height="90"/>
+        <element name="SearchedWord" positionX="-63" positionY="-18" width="128" height="90"/>
+    </elements>
 </model>
